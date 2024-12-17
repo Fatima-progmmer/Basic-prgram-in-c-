@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y;
+	int sum,substract,multiple,division;
+	cout << "Enter x=";
+	cin >>x;
+	cout << "Enter y =";
+	cin >> y;
+    sum = x+y;
+	substract =x-y;
+	multiple = x*y;
+	division = x/y;
+	cout << "sum is=" << sum <<"\n";
+	cout << "substract is=" <<substract <<"\n";	cout << "multiple is=" << multiple << "\n";
+	cout << "division is=" << division <<"\n";
+	return 0;
+}
